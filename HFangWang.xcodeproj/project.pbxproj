@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E976CE81C5F6846007EDA0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976CE71C5F6846007EDA0E /* AppDelegate.swift */; };
+		4E976CEA1C5F6846007EDA0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976CE91C5F6846007EDA0E /* ViewController.swift */; };
+		4E976CED1C5F6846007EDA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E976CEB1C5F6846007EDA0E /* Main.storyboard */; };
+		4E976CEF1C5F6846007EDA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E976CEE1C5F6846007EDA0E /* Assets.xcassets */; };
+		4E976CF21C5F6846007EDA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E976CF01C5F6846007EDA0E /* LaunchScreen.storyboard */; };
+		4E976CFD1C5F6846007EDA0E /* HFangWangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976CFC1C5F6846007EDA0E /* HFangWangTests.swift */; };
+		4E976D081C5F6846007EDA0E /* HFangWangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976D071C5F6846007EDA0E /* HFangWangUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E976CF91C5F6846007EDA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E976CDC1C5F6846007EDA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E976CE31C5F6846007EDA0E;
+			remoteInfo = HFangWang;
+		};
+		4E976D041C5F6846007EDA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E976CDC1C5F6846007EDA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E976CE31C5F6846007EDA0E;
+			remoteInfo = HFangWang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E976CE41C5F6846007EDA0E /* HFangWang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFangWang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E976CE71C5F6846007EDA0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E976CE91C5F6846007EDA0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E976CEC1C5F6846007EDA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E976CEE1C5F6846007EDA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E976CF11C5F6846007EDA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E976CF31C5F6846007EDA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E976CF81C5F6846007EDA0E /* HFangWangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFangWangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E976CFC1C5F6846007EDA0E /* HFangWangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFangWangTests.swift; sourceTree = "<group>"; };
+		4E976CFE1C5F6846007EDA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E976D031C5F6846007EDA0E /* HFangWangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFangWangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E976D071C5F6846007EDA0E /* HFangWangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFangWangUITests.swift; sourceTree = "<group>"; };
+		4E976D091C5F6846007EDA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E976CE11C5F6846007EDA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E976CF51C5F6846007EDA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E976D001C5F6846007EDA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E976CDB1C5F6846007EDA0E = {
+			isa = PBXGroup;
+			children = (
+				4E976CE61C5F6846007EDA0E /* HFangWang */,
+				4E976CFB1C5F6846007EDA0E /* HFangWangTests */,
+				4E976D061C5F6846007EDA0E /* HFangWangUITests */,
+				4E976CE51C5F6846007EDA0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E976CE51C5F6846007EDA0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E976CE41C5F6846007EDA0E /* HFangWang.app */,
+				4E976CF81C5F6846007EDA0E /* HFangWangTests.xctest */,
+				4E976D031C5F6846007EDA0E /* HFangWangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E976CE61C5F6846007EDA0E /* HFangWang */ = {
+			isa = PBXGroup;
+			children = (
+				4E976CE71C5F6846007EDA0E /* AppDelegate.swift */,
+				4E976CE91C5F6846007EDA0E /* ViewController.swift */,
+				4E976CEB1C5F6846007EDA0E /* Main.storyboard */,
+				4E976CEE1C5F6846007EDA0E /* Assets.xcassets */,
+				4E976CF01C5F6846007EDA0E /* LaunchScreen.storyboard */,
+				4E976CF31C5F6846007EDA0E /* Info.plist */,
+			);
+			path = HFangWang;
+			sourceTree = "<group>";
+		};
+		4E976CFB1C5F6846007EDA0E /* HFangWangTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E976CFC1C5F6846007EDA0E /* HFangWangTests.swift */,
+				4E976CFE1C5F6846007EDA0E /* Info.plist */,
+			);
+			path = HFangWangTests;
+			sourceTree = "<group>";
+		};
+		4E976D061C5F6846007EDA0E /* HFangWangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E976D071C5F6846007EDA0E /* HFangWangUITests.swift */,
+				4E976D091C5F6846007EDA0E /* Info.plist */,
+			);
+			path = HFangWangUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E976CE31C5F6846007EDA0E /* HFangWang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E976D0C1C5F6846007EDA0E /* Build configuration list for PBXNativeTarget "HFangWang" */;
+			buildPhases = (
+				4E976CE01C5F6846007EDA0E /* Sources */,
+				4E976CE11C5F6846007EDA0E /* Frameworks */,
+				4E976CE21C5F6846007EDA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFangWang;
+			productName = HFangWang;
+			productReference = 4E976CE41C5F6846007EDA0E /* HFangWang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E976CF71C5F6846007EDA0E /* HFangWangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E976D0F1C5F6846007EDA0E /* Build configuration list for PBXNativeTarget "HFangWangTests" */;
+			buildPhases = (
+				4E976CF41C5F6846007EDA0E /* Sources */,
+				4E976CF51C5F6846007EDA0E /* Frameworks */,
+				4E976CF61C5F6846007EDA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E976CFA1C5F6846007EDA0E /* PBXTargetDependency */,
+			);
+			name = HFangWangTests;
+			productName = HFangWangTests;
+			productReference = 4E976CF81C5F6846007EDA0E /* HFangWangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E976D021C5F6846007EDA0E /* HFangWangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E976D121C5F6846007EDA0E /* Build configuration list for PBXNativeTarget "HFangWangUITests" */;
+			buildPhases = (
+				4E976CFF1C5F6846007EDA0E /* Sources */,
+				4E976D001C5F6846007EDA0E /* Frameworks */,
+				4E976D011C5F6846007EDA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E976D051C5F6846007EDA0E /* PBXTargetDependency */,
+			);
+			name = HFangWangUITests;
+			productName = HFangWangUITests;
+			productReference = 4E976D031C5F6846007EDA0E /* HFangWangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E976CDC1C5F6846007EDA0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = guominglong;
+				TargetAttributes = {
+					4E976CE31C5F6846007EDA0E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4E976CF71C5F6846007EDA0E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4E976CE31C5F6846007EDA0E;
+					};
+					4E976D021C5F6846007EDA0E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4E976CE31C5F6846007EDA0E;
+					};
+				};
+			};
+			buildConfigurationList = 4E976CDF1C5F6846007EDA0E /* Build configuration list for PBXProject "HFangWang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E976CDB1C5F6846007EDA0E;
+			productRefGroup = 4E976CE51C5F6846007EDA0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E976CE31C5F6846007EDA0E /* HFangWang */,
+				4E976CF71C5F6846007EDA0E /* HFangWangTests */,
+				4E976D021C5F6846007EDA0E /* HFangWangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E976CE21C5F6846007EDA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E976CF21C5F6846007EDA0E /* LaunchScreen.storyboard in Resources */,
+				4E976CEF1C5F6846007EDA0E /* Assets.xcassets in Resources */,
+				4E976CED1C5F6846007EDA0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E976CF61C5F6846007EDA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E976D011C5F6846007EDA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E976CE01C5F6846007EDA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E976CEA1C5F6846007EDA0E /* ViewController.swift in Sources */,
+				4E976CE81C5F6846007EDA0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E976CF41C5F6846007EDA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E976CFD1C5F6846007EDA0E /* HFangWangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E976CFF1C5F6846007EDA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E976D081C5F6846007EDA0E /* HFangWangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E976CFA1C5F6846007EDA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E976CE31C5F6846007EDA0E /* HFangWang */;
+			targetProxy = 4E976CF91C5F6846007EDA0E /* PBXContainerItemProxy */;
+		};
+		4E976D051C5F6846007EDA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E976CE31C5F6846007EDA0E /* HFangWang */;
+			targetProxy = 4E976D041C5F6846007EDA0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E976CEB1C5F6846007EDA0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E976CEC1C5F6846007EDA0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E976CF01C5F6846007EDA0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E976CF11C5F6846007EDA0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E976D0A1C5F6846007EDA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E976D0B1C5F6846007EDA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E976D0D1C5F6846007EDA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HFangWang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gml.HFangWang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E976D0E1C5F6846007EDA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HFangWang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gml.HFangWang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E976D101C5F6846007EDA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HFangWangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gml.HFangWangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HFangWang.app/HFangWang";
+			};
+			name = Debug;
+		};
+		4E976D111C5F6846007EDA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HFangWangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gml.HFangWangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HFangWang.app/HFangWang";
+			};
+			name = Release;
+		};
+		4E976D131C5F6846007EDA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HFangWangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gml.HFangWangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HFangWang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4E976D141C5F6846007EDA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HFangWangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gml.HFangWangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HFangWang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E976CDF1C5F6846007EDA0E /* Build configuration list for PBXProject "HFangWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E976D0A1C5F6846007EDA0E /* Debug */,
+				4E976D0B1C5F6846007EDA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E976D0C1C5F6846007EDA0E /* Build configuration list for PBXNativeTarget "HFangWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E976D0D1C5F6846007EDA0E /* Debug */,
+				4E976D0E1C5F6846007EDA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E976D0F1C5F6846007EDA0E /* Build configuration list for PBXNativeTarget "HFangWangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E976D101C5F6846007EDA0E /* Debug */,
+				4E976D111C5F6846007EDA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E976D121C5F6846007EDA0E /* Build configuration list for PBXNativeTarget "HFangWangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E976D131C5F6846007EDA0E /* Debug */,
+				4E976D141C5F6846007EDA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E976CDC1C5F6846007EDA0E /* Project object */;
+}
