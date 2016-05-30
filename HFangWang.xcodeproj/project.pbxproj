@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E67DC281C7460D00056046B /* bbb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E67DC271C7460D00056046B /* bbb.swift */; };
 		4E976CE81C5F6846007EDA0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976CE71C5F6846007EDA0E /* AppDelegate.swift */; };
-		4E976CEA1C5F6846007EDA0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976CE91C5F6846007EDA0E /* ViewController.swift */; };
 		4E976CED1C5F6846007EDA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E976CEB1C5F6846007EDA0E /* Main.storyboard */; };
 		4E976CEF1C5F6846007EDA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E976CEE1C5F6846007EDA0E /* Assets.xcassets */; };
 		4E976CF21C5F6846007EDA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E976CF01C5F6846007EDA0E /* LaunchScreen.storyboard */; };
 		4E976CFD1C5F6846007EDA0E /* HFangWangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976CFC1C5F6846007EDA0E /* HFangWangTests.swift */; };
 		4E976D081C5F6846007EDA0E /* HFangWangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976D071C5F6846007EDA0E /* HFangWangUITests.swift */; };
+		4E976D2E1C60871E007EDA0E /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976D2B1C60871E007EDA0E /* LaunchViewController.swift */; };
+		4E976D2F1C60871E007EDA0E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976D2C1C60871E007EDA0E /* MainViewController.swift */; };
+		4E976D301C60871E007EDA0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976D2D1C60871E007EDA0E /* ViewController.swift */; };
+		4E976D341C60886E007EDA0E /* HeiFangController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976D331C60886E007EDA0E /* HeiFangController.swift */; };
+		4E976D361C60889A007EDA0E /* UserCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976D351C60889A007EDA0E /* UserCenterController.swift */; };
+		4E976D381C6088B2007EDA0E /* HeiZhongJieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976D371C6088B2007EDA0E /* HeiZhongJieController.swift */; };
+		4E976D3C1C61FEEE007EDA0E /* NaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E976D3B1C61FEEE007EDA0E /* NaviController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E67DC271C7460D00056046B /* bbb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bbb.swift; sourceTree = "<group>"; };
 		4E976CE41C5F6846007EDA0E /* HFangWang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFangWang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E976CE71C5F6846007EDA0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E976CE91C5F6846007EDA0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4E976CEC1C5F6846007EDA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E976CEE1C5F6846007EDA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E976CF11C5F6846007EDA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,14 @@
 		4E976D031C5F6846007EDA0E /* HFangWangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFangWangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E976D071C5F6846007EDA0E /* HFangWangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFangWangUITests.swift; sourceTree = "<group>"; };
 		4E976D091C5F6846007EDA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E976D171C5F6933007EDA0E /* MyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeader.h; sourceTree = "<group>"; };
+		4E976D2B1C60871E007EDA0E /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchViewController.swift; path = controllers/LaunchViewController.swift; sourceTree = "<group>"; };
+		4E976D2C1C60871E007EDA0E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = controllers/MainViewController.swift; sourceTree = "<group>"; };
+		4E976D2D1C60871E007EDA0E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = controllers/ViewController.swift; sourceTree = "<group>"; };
+		4E976D331C60886E007EDA0E /* HeiFangController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeiFangController.swift; path = controllers/HeiFangController.swift; sourceTree = "<group>"; };
+		4E976D351C60889A007EDA0E /* UserCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCenterController.swift; path = controllers/UserCenterController.swift; sourceTree = "<group>"; };
+		4E976D371C6088B2007EDA0E /* HeiZhongJieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeiZhongJieController.swift; path = controllers/HeiZhongJieController.swift; sourceTree = "<group>"; };
+		4E976D3B1C61FEEE007EDA0E /* NaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaviController.swift; path = controllers/NaviController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +112,14 @@
 		4E976CE61C5F6846007EDA0E /* HFangWang */ = {
 			isa = PBXGroup;
 			children = (
+				4E976D2A1C60870A007EDA0E /* views */,
+				4E976D291C6086F6007EDA0E /* controllers */,
 				4E976CE71C5F6846007EDA0E /* AppDelegate.swift */,
-				4E976CE91C5F6846007EDA0E /* ViewController.swift */,
 				4E976CEB1C5F6846007EDA0E /* Main.storyboard */,
 				4E976CEE1C5F6846007EDA0E /* Assets.xcassets */,
 				4E976CF01C5F6846007EDA0E /* LaunchScreen.storyboard */,
 				4E976CF31C5F6846007EDA0E /* Info.plist */,
+				4E976D171C5F6933007EDA0E /* MyHeader.h */,
 			);
 			path = HFangWang;
 			sourceTree = "<group>";
@@ -123,6 +140,28 @@
 				4E976D091C5F6846007EDA0E /* Info.plist */,
 			);
 			path = HFangWangUITests;
+			sourceTree = "<group>";
+		};
+		4E976D291C6086F6007EDA0E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E976D351C60889A007EDA0E /* UserCenterController.swift */,
+				4E976D2B1C60871E007EDA0E /* LaunchViewController.swift */,
+				4E976D2C1C60871E007EDA0E /* MainViewController.swift */,
+				4E976D2D1C60871E007EDA0E /* ViewController.swift */,
+				4E976D331C60886E007EDA0E /* HeiFangController.swift */,
+				4E976D371C6088B2007EDA0E /* HeiZhongJieController.swift */,
+				4E976D3B1C61FEEE007EDA0E /* NaviController.swift */,
+				4E67DC271C7460D00056046B /* bbb.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		4E976D2A1C60870A007EDA0E /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +295,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E976CEA1C5F6846007EDA0E /* ViewController.swift in Sources */,
+				4E67DC281C7460D00056046B /* bbb.swift in Sources */,
 				4E976CE81C5F6846007EDA0E /* AppDelegate.swift in Sources */,
+				4E976D2F1C60871E007EDA0E /* MainViewController.swift in Sources */,
+				4E976D341C60886E007EDA0E /* HeiFangController.swift in Sources */,
+				4E976D381C6088B2007EDA0E /* HeiZhongJieController.swift in Sources */,
+				4E976D301C60871E007EDA0E /* ViewController.swift in Sources */,
+				4E976D2E1C60871E007EDA0E /* LaunchViewController.swift in Sources */,
+				4E976D3C1C61FEEE007EDA0E /* NaviController.swift in Sources */,
+				4E976D361C60889A007EDA0E /* UserCenterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +398,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = HFangWang/MyHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -390,6 +437,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = HFangWang/MyHeader.h;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -484,6 +532,7 @@
 				4E976D0E1C5F6846007EDA0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E976D0F1C5F6846007EDA0E /* Build configuration list for PBXNativeTarget "HFangWangTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +541,7 @@
 				4E976D111C5F6846007EDA0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E976D121C5F6846007EDA0E /* Build configuration list for PBXNativeTarget "HFangWangUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +550,7 @@
 				4E976D141C5F6846007EDA0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,11 +12,60 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    var config:NSMutableDictionary!;
+    var mainView:MainViewController!;
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        
+        ginit();
+        self.window?.makeKeyAndVisible();
+        return true;
+    }
+    
+    func ginit()
+    {
+        let b:Bool = loadConfig();
+        var contentViewController:UIViewController;
+        if(b != false)
+        {
+            //第一次运行app，显示引导页
+            var launchView:LaunchViewController;
+            var imgviews:[UIImageView] = [];
+            for(var i:Int = 0 ;i<5;i++)
+            {
+                let imgV:UIImageView = UIImageView(frame: self.window!.bounds);
+                imgV.image = UIImage(named: "launch\(i)");
+                imgviews.append(imgV);
+            }
+            launchView = LaunchViewController(_views: imgviews, transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: UIPageViewControllerNavigationOrientation.Horizontal, options:nil);
+            contentViewController = launchView;
+            //self.window?.rootViewController = launchView;
+        }else{
+            //非第一次运行app，直接显示主界面
+            contentViewController = MainViewController();
+        }
+        let navi:NaviController = NaviController(rootViewController: contentViewController);
+        self.window?.rootViewController = navi;
+        
+    }
+    
+    func loadConfig() -> Bool
+    {
+        let path:String = "\(NSBundle.mainBundle().bundlePath)/gmlConfig.con";
+        let b:Bool = NSFileManager.defaultManager().fileExistsAtPath(path);
+        if(b == true)
+        {
+            //存在配置文件，证明不是第一次运行程序，所以不需要引导页
+            config = NSMutableDictionary(contentsOfFile: path);
+        }else{
+            //第一次运行app，需要引导页
+            config = NSMutableDictionary();
+            config.setValue("郭明龙", forKey: "NickName");
+            config.writeToFile(path, atomically: false);
+        }
+        
+        return b;
     }
 
     func applicationWillResignActive(application: UIApplication) {
